@@ -2,7 +2,9 @@ var elem = document.documentElement;
 
 function openFullscreen() {
     document.getElementById("btnActivar").remove();
+    
     setInterval(ChangeBG, 180);
+
     var x = document.getElementById("sonido").play();        
 
     if (elem.requestFullscreen) {
