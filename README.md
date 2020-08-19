@@ -7,4 +7,9 @@
 - HTML5 tag <strong>audio</strong> emite sonido al activar la pantalla completa.
 - CSS <strong>background-color</strong> se cambia el color de fondo en valores exadecimales de manera aleatoria
 
+
+
+Demo: [Full Screen & Random Colors](http://marco.presting.pro/GitHub/FullScreenColors)
+
+
 ![Screenshot](FullScreenColors.jpg)
