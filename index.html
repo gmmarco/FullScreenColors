@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Full Scream, Audio and Random Colors">
+    <link rel="icon" href="media/favicon.ico">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <button id="btnActivar" onclick="openFullscreen();">Activar FullScreen</button>
+
+    <audio id="sonido" loop>
+        <source src="media/001105156.ogg" type="audio/ogg">
+        <source src="media/001105156.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="contenido">
+        <p class="bold">
+            Acciones realizadas
+        </p>
+        <ul>
+            <li>JavaScript <strong>fullscreen</strong> activa la pantalla completa al pulsar el botón, por defecto no se puede inicializar pantalla completa sin acción previa del usuario.</li>
+            <li>HTML5 tag <strong>audio</strong> emite sonido al activar la pantalla completa</li>
+            <li>CSS <strong>background-color</strong> se cambia el color de fondo en valores exadecimales de manera aleatoria</li>
+        </ul>
+    </div>
+
+    <!-- Inclusión de Archivos Script -->
+    <script src="js/index.js" type="text/javascript"></script>
+
+    <script type="text/javascript" >
+        setTimeout("preventBack()", 0);
+        window.onunload=function(){null};
+    </script>
+</body>
+</html>
+
