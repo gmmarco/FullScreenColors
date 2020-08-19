@@ -1,4 +1,4 @@
-#Full Screen & Random Colors
+# Full Screen & Random Colors
 
 > Al pulsar el botón se activa la pantalla completa, el audio de fondo y una función que cambia el fondo de la pantalla de manera aleatoria cada 180 mili segundos.
 
@@ -7,4 +7,4 @@
 - HTML5 tag <strong>audio</strong> emite sonido al activar la pantalla completa.
 - CSS <strong>background-color</strong> se cambia el color de fondo en valores exadecimales de manera aleatoria
 
-![enter image description here](https://twitter.com/GMarkinho/photo)
+![Screenshot](FullScreenColors.jpg)
