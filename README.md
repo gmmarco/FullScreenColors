@@ -9,7 +9,7 @@
 
 
 
-Demo: [Full Screen & Random Colors](http://marco.presting.pro/GitHub/FullScreenColors)
+Demo: [Full Screen & Random Colors](https://marco.presting.pro/GitHub/FullScreenColors)
 
 
 ![Screenshot](FullScreenColors.jpg)
